@@ -184,3 +184,16 @@ Nếu có dữ liệu theo thời gian, Sequential Pattern Mining có thể giú
 - NumPy
 - Matplotlib
 - Seaborn
+
+---
+## Cấu trúc dự án
+
+├── data/
+│   ├── EcomSales.csv
+│   │   └── Dữ liệu giao dịch với 51.290 dòng ở cấp độ Order Line Item
+│   └── Product.csv
+│       └── Danh mục sản phẩm và thông tin phân loại
+├── Market Basket Analysis_Ecommerce dataset.ipynb
+│   └── Tiền xử lý dữ liệu, xây dựng mô hình Apriori và phân tích Association Rules
+└── README.md
+    └── Tổng quan dự án, kết quả phân tích và khuyến nghị kinh doanh                                                  
