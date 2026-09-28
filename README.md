@@ -24,7 +24,7 @@
 
 ---
 
-## 📂 Tổng quan về tệp dữ liệu
+## Tổng quan về tệp dữ liệu
 
 Phân tích thực hiện trên 25.728 giỏ hàng (basket).
 
@@ -44,7 +44,7 @@ Phân tích được thực hiện ở cấp độ **Subcategory** để cân b�
 
 ---
 
-## 🔍 Phương pháp phân tích
+## Phương pháp phân tích
 
 Áp dụng thuật toán **Apriori** để khai phá Association Rules.
 
@@ -145,7 +145,7 @@ Một số hạn chế:
 
 ---
 
-## 🔜 Hướng phát triển & cải thiện:
+## Hướng phát triển & cải thiện:
 
 ### 1. Xây dựng Composite Score
 
@@ -186,17 +186,16 @@ Nếu có dữ liệu theo thời gian, Sequential Pattern Mining có thể giú
 - Seaborn
 
 ---
-## Cấu trúc dự án
+## 📁 Cấu trúc dự án
 
+```text
 ├── data/
 │   ├── EcomSales.csv
-│   │   └── Dữ liệu giao dịch với 51.290 dòng 
-│   │       ở cấp độ Order Line Item
+│   │   └── Dữ liệu giao dịch với 51.290 dòng ở cấp độ Order Line Item
 │   └── Product.csv
 │       └── Danh mục sản phẩm và thông tin phân loại
 ├── Market Basket Analysis_Ecommerce dataset.ipynb
-│   └── Tiền xử lý dữ liệu, xây dựng mô hình Apriori 
-│       và phân tích Association Rules
+│   └── Tiền xử lý dữ liệu, xây dựng mô hình Apriori và phân tích Association Rules
 └── README.md
-    └── Tổng quan dự án, kết quả phân tích và 
-        khuyến nghị kinh doanh                                                  
+    └── Tổng quan dự án, kết quả phân tích và khuyến nghị kinh doanh
+```
