@@ -176,9 +176,8 @@ Nếu có dữ liệu theo thời gian, Sequential Pattern Mining có thể giú
 
 ---
 
-## Kỹ thuật phân tích
+## Các thư viện Python sử dụng phân tích
 
-- Python
 - Pandas
 - Mlxtend (Apriori)
 - NumPy
